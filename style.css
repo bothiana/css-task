@@ -1,3 +1,30 @@
-.paragraph{
-    color: green;
+h1 {
+  color: teal;
+}
+
+.paragraph {
+  color: tomato;
+  font-size: 20px;
+}
+
+#list {
+  color: blueviolet;
+}
+
+img[alt="Nature"] {
+  width: 200px;
+}
+
+input:hover {
+  font-size: 30px;
+  background-color: teal;
+}
+
+input[type="radio"] + label {
+  font-size: 20px;
+  color: brown;
+}
+
+form > button{
+    width: 120px;
 }
